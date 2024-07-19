@@ -4,15 +4,15 @@
 alert("Welcome to calculator");
 
 // prompt
-const firstnum = parseFloat(prompt("Enter the first num:"));
-const secnum = parseFloat(prompt("Enter the second num:"));
-const thirdnum = parseInt(prompt("Enter the third num:"));
+const firstnum = prompt("Enter the first num:");
+console.log(typeof firstnumber); // kun type ho bhanye ra tha hunxa.
+const secnum = prompt("Enter the second num:");
 
 // confirm
-const sure = confirm("You want to add this three num?");
+const sure = confirm("You want to add this two num?");
 
 // adding two number
-const sum = firstnum + secnum + thirdnum;
+const sum = Number(firstnum) + Number(secnum);
 
 console.log(sum); // printing the sum of two number
 
